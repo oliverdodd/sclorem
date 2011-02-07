@@ -20,20 +20,20 @@ Methods
 -------
 
 +	**randomWord:String**
-		- Get a random word.
+	- Get a random word.
 +	**randomPunctuation:String**
-		- Get a random punctuation mark.
+	- Get a random punctuation mark.
 +	**words(count:Int):String**
-		- Get a string of words.
+	- Get a string of words.
 +	**sentenceFragment:String**
-		- Get a sentence fragment.
+	- Get a sentence fragment.
 +	**sentence:String**
-		- Get a sentence.
+	- Get a sentence.
 +	**sentences(count:Int):String**
-		- Get multiple sentences.
+	- Get multiple sentences.
 +	**paragraph(useStandard:Boolean = false)**
-		- Get a paragraph.
-		If $useStandard is true, return the standard Lorem Ipsum paragraph.
+	- Get a paragraph.
+	If useStandard is true, return the standard Lorem Ipsum paragraph.
 +	**paragraphs(count: Int, useStandard:Boolean = false)**
-		- Get multiple paragraphs.
-		If $useStandard is true, lead with the standard Lorem Ipsum paragraph.
+	- Get multiple paragraphs.
+	If useStandard is true, lead with the standard Lorem Ipsum paragraph.
