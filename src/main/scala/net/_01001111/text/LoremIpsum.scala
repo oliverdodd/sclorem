@@ -46,7 +46,7 @@ object LoremIpsum {
   def sentenceFragment:String = words(random.nextInt(10) + 3)
   
   def sentence:String = {
-    var s = new StringBuilder(randomWord.capitalize)
+    var s = new StringBuilder(randomWord.capitalize).append(" ")
 	if (random.nextBoolean) {
       (0 to random.nextInt(3)).foreach({
     	  s.append(sentenceFragment).append(", ")
